@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form-box {
+            border: 1px solid black;
+            
+            
+        }
+        .form-box input{
+            display: block;
+        }
+
+        .enter input{
+            width: 200px;
+            height: 200px;
+            display: block;
+        }
+        .send{
+            background-color: greenyellow;
+            width: 30px;
+        }
+        body{
+            background-color: rgb(62, 64, 143);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f1f1f1;
+            margin-top: 30px;
+            flex-shrink: 0;
+            
+        }
+        .copyright {
+            color: green;
+            font-weight: bold;
+        }
+           
+        
+    </style>
+</head>
+<body>
+    <img src ="profilepicture.jpg" alt ="" height="200px" width="170px" >
+    <hr> 
+    <h4>Contacts</h4>
+    <ul>
+        <li>Phone no: 0743732058</li>
+        <li> <a href="mailto:Email:sofiahafsa00@gmail.com">Email me</a> </li>
+        
+    </ul>
+    <hr>
+   
+    <form>
+        
+    <div class="form-box">
+        <label>Enter your Name:</label>
+        <input type="text" name="entername"><br>
+        <label>E-mail Address*:</label>
+        <input type="text" name="mail"><br>
+        <label>Messege Subject:</label>
+        <input type="text" name="messege"><br>
+        <div class="enter"><label>Enter your Message*:</label>
+        <input type="text" name="entermessege">
+        </div>
+    
+    <input type="checkbox"><label for="">E-mail a copy of this message to your own address</label>E-mail a copy of this message to your own address<br>
+<div class = "send"><a href="mailto:Email:sofiahafsa00@gmail.com">Send</a>
+</div>
+    </div>
+
+    </form>
+    <footer>
+        <p class="copyright">&copy; 2025 Sofia Hafsa. All Rights Reserved.</p>
+    </footer>
+    
+</body>
+</html>
